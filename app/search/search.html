@@ -1,0 +1,10 @@
+<div id="wrapper">
+
+  <search-form></search-form>
+
+  <div id="results" ng-show="ctrl.results">
+    <div ng-repeat="item in ctrl.results.items">
+      <result-item item="item"></result-item>
+    </div>
+  </div>
+</div>
