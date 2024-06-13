@@ -1,0 +1,25 @@
+{
+  "name": "lase3.fe",
+  "authors": [
+    "Filip Soltes <fo@fslts.sk>"
+  ],
+  "description": "lase3 frontend",
+  "main": "",
+  "moduleType": [],
+  "license": "GPL",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "PACE": "pace#^1.0.2",
+    "bootstrap": "^3.3.6"
+  }
+}
